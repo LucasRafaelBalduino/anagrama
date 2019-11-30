@@ -1,0 +1,64 @@
+html {
+  font-family: Arial, Helvetica;
+  color: #333;
+}
+
+h1 small {
+  font-size: 50%;
+}
+
+.form input, .form label, .form select {
+  display: block;
+  margin-bottom: 6px;
+}
+.form input[type="submit"] {
+  margin-top: 20px;
+}
+.form .inline {
+  display: inline;
+}
+
+.hide {
+  display: none;
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gallery li {
+  font-size: 14px;
+  padding: 5px 7px;
+  background: #ccc;
+  margin: 2px;
+  border-radius: 5px;
+  border: 2px solid #999;
+  cursor: pointer;
+}
+.gallery li.fav {
+  background: #0c0;
+}
+.gallery.block li {
+  display: inline-block;
+}
+.gallery.list li {
+  margin-bottom: 4px;
+  padding: 4px 5px;
+}
+
+.result-search {
+  position: relative;
+}
+.result-search #result-list {
+  display: block;
+  width: 100%;
+  padding-right: 140px;
+  box-sizing: border-box;
+}
+.result-search #fav-wrapper {
+  width: 130px;
+  position: fixed;
+  top: 10px;
+  right: 5px;
+}
